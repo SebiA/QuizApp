@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">a2021_02_03a</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="initial_score">0</string>
+    <string name="q_start">Are you ready?</string>
+    <string name="q_seas">There are nine seas</string>
+    <string name="q_continent">There are seven continents</string>
+    <string name="q_add3_4">3+4=7</string>
+    <string name="q_add5_4">5+4=11</string>
+    <string name="q_seasons">There are five seasons</string>
+    <string name="q_2x2">2x2=4</string>
+    <string name="q_year">There are 360 days in a year</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="title_activity_summary">SummaryActivity</string>
+</resources>
