@@ -15,10 +15,16 @@
         tools:layout_editor_absoluteY="171dp" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/quit_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Button"
-        tools:layout_editor_absoluteX="160dp"
-        tools:layout_editor_absoluteY="569dp" />
+        android:layout_marginStart="160dp"
+        android:layout_marginTop="379dp"
+        android:layout_marginEnd="163dp"
+        android:layout_marginBottom="114dp"
+        android:text="Quit"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
 </androidx.constraintlayout.widget.ConstraintLayout>

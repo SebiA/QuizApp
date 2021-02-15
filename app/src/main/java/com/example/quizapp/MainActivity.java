@@ -120,15 +120,12 @@ public class MainActivity extends AppCompatActivity {
         summaryButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                ShowSummaryActivity(view);
+                Intent intent_summary = new Intent(getApplicationContext(), SummaryActivity.class);
+                //intent_summary.putExtra("score", score.getScore());
+                startActivity(intent_summary);
             }
         });
 
-    }
-
-    public void ShowSummaryActivity(View view) {
-        Intent intent = new Intent(MainActivty.this, ShowSummaryActivity.class);
-        Intent.putExtra("score", score.getScore());
     }
 
 }
